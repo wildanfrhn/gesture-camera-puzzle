@@ -1,0 +1,38 @@
+<div class="gp-app">
+  <div class="gp-header">
+    <div>
+      <div class="gp-title">Gesture Camera Puzzle 3×3</div>
+      <div class="gp-subtitle">
+        Bentuk bingkai dengan dua tangan untuk memotret. Cubit ibu jari + telunjuk untuk mengambil dan memindahkan puzzle.
+      </div>
+    </div>
+    <div class="gp-badge">MediaPipe Hands</div>
+  </div>
+
+  <div class="gp-stage">
+    <video class="gp-video" playsinline muted></video>
+    <canvas class="gp-canvas"></canvas>
+    <div class="gp-loading">
+      <div class="gp-spinner"></div>
+      <div class="gp-loading-text">Siap memulai…</div>
+    </div>
+  </div>
+
+  <div class="gp-toolbar">
+    <button class="gp-btn gp-primary gp-start">Mulai Kamera</button>
+    <button class="gp-btn gp-capture" disabled>Capture Manual</button>
+    <button class="gp-btn gp-reset" disabled>Ulangi</button>
+    <button class="gp-btn gp-stop" disabled>Hentikan</button>
+  </div>
+
+  <div class="gp-status">
+    Klik <b>Mulai Kamera</b>, lalu berikan izin kamera pada browser.
+  </div>
+
+  <div class="gp-help">
+    <b>Gesture:</b>
+    <span>📐 Dua tangan berbentuk “L” pada sudut berlawanan = mulai countdown 3 detik</span>
+    <span>🤏 Cubit ibu jari + telunjuk = ambil dan tahan tile</span>
+    <span>🖐️ Buka cubitan = lepaskan dan swap tile</span>
+  </div>
+</div>
